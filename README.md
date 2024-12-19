@@ -3,6 +3,9 @@
 
 ## ToDos:
 - Data Calculation for visualization of H, P etc.
+- case for loading default config at startup
+- case for selection of measurement file type
+- case for importing scalings from a config file
 
 ## Requirements
 
