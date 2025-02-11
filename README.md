@@ -1,4 +1,4 @@
-# LabVIEW_Teststand_FSD
+# LabVIEW_Teststand
 - Simple Queued Message Handler for Data Aquisition of usual teststands used at the FSD. 
 
 ## ToDos:
