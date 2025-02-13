@@ -11,22 +11,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVI" Type="Folder">
-			<Item Name="Init_Channels.vi" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/SubVI/Init_Channels.vi"/>
+			<Item Name="Init_Channels.vi" Type="VI" URL="../SubVI/Init_Channels.vi"/>
 			<Item Name="Load_Channel_Config.vi" Type="VI" URL="../SubVI/Load_Channel_Config.vi"/>
-			<Item Name="Load_Channel_Config_new.vi" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/SubVI/Load_Channel_Config_new.vi"/>
-			<Item Name="Measurement_Tab_Enabling.vi" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/SubVI/Measurement_Tab_Enabling.vi"/>
-			<Item Name="Save_Channel_Config.vi" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/SubVI/Save_Channel_Config.vi"/>
+			<Item Name="Load_Channel_Config_new.vi" Type="VI" URL="../SubVI/Load_Channel_Config_new.vi"/>
+			<Item Name="Measurement_Tab_Enabling.vi" Type="VI" URL="../SubVI/Measurement_Tab_Enabling.vi"/>
+			<Item Name="Save_Channel_Config.vi" Type="VI" URL="../SubVI/Save_Channel_Config.vi"/>
 		</Item>
 		<Item Name="typedef" Type="Folder">
-			<Item Name="Channel_Information_Control.ctl" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/typedef/Channel_Information_Control.ctl"/>
-			<Item Name="Main_Tabcontrol.ctl" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/typedef/Main_Tabcontrol.ctl"/>
-			<Item Name="Queue_Cluster.ctl" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/typedef/Queue_Cluster.ctl"/>
-			<Item Name="Sampling_Cluster.ctl" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/typedef/Sampling_Cluster.ctl"/>
+			<Item Name="Channel_Information_Control.ctl" Type="VI" URL="../typedef/Channel_Information_Control.ctl"/>
+			<Item Name="Queue_Cluster.ctl" Type="VI" URL="../typedef/Queue_Cluster.ctl"/>
+			<Item Name="Sampling_Cluster.ctl" Type="VI" URL="../typedef/Sampling_Cluster.ctl"/>
 		</Item>
-		<Item Name="Prüfstand.vi" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/Prüfstand.vi"/>
-		<Item Name="Send_Event.vi" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/Send_Event.vi"/>
-		<Item Name="Send_Multiple.vi" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/Send_Multiple.vi"/>
-		<Item Name="Send_Multiple_Event.vi" Type="VI" URL="../../Downloads/Version_0.9_Benni_Prüfstand/Send_Multiple_Event.vi"/>
+		<Item Name="Prüfstand.vi" Type="VI" URL="../Prüfstand.vi"/>
+		<Item Name="Send_Multiple.vi" Type="VI" URL="../Send_Multiple.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
