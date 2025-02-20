@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="17008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -216,9 +216,16 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Channel_Information_Control_array.ctl" Type="VI" URL="../typedef/Channel_Information_Control_array.ctl"/>
+			<Item Name="Channel_Information_Control_single.ctl" Type="VI" URL="../typedef/Channel_Information_Control_single.ctl"/>
+			<Item Name="Filter_Channel_Information.vi" Type="VI" URL="../SubVI/Filter_Channel_Information.vi"/>
+			<Item Name="Init_available_Channels.vi" Type="VI" URL="../SubVI/Init_available_Channels.vi"/>
+			<Item Name="Main_Tabcontrol.ctl" Type="VI" URL="../typedef/Main_Tabcontrol.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Send_Event.vi" Type="VI" URL="../Send_Event.vi"/>
+			<Item Name="Send_Multiple_Event.vi" Type="VI" URL="../Send_Multiple_Event.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
