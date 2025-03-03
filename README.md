@@ -1,5 +1,5 @@
 # LabVIEW_Teststand
-- Simple Queued Message Handler for Data Aquisition of usual teststands used at the FSD. 
+- Simple Queued Message Handler for Data Aquisition of pumps.
 
 ## ToDos:
 - Data Calculation for visualization of H, P etc.
@@ -10,3 +10,7 @@
 ## Requirements
 
 - LabVIEW 2021
+## Known Issues
+
+- Data Aquisition for single points currently not implemented
+- GUI not pretty rn
