@@ -1,5 +1,6 @@
 # LabVIEW_Teststand
 - Simple Queued Message Handler for Data Aquisition of pumps.
+- mainly a proof of concept
 
 ## ToDos:
 - Data Calculation for visualization of H, P etc.
